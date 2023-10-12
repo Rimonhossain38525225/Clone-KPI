@@ -1,3 +1,4 @@
+/* eslint-disable react-refresh/only-export-components */
 /* ---------------------
  home page Data start
  ------------------------*/
@@ -41,7 +42,7 @@ export const cardsData = [
   {
     card1: {
       title: "একাডেমিক কার্যক্রম",
-      img: "./src/assets/Cards_images/card1.png",
+      img: "https://i.ibb.co/1YVWFDq/card1.png",
       links: [
         "ক্লাশ রুটিন",
         "পরীক্ষার রুটিন",
@@ -51,7 +52,7 @@ export const cardsData = [
     },
     card2: {
       title: "প্রতিষ্ঠান সম্পর্কিত",
-      img: "./src/assets/Cards_images/card2.jpg",
+      img: "https://i.ibb.co/D7TbnDm/card2.jpg",
       links: [
         "প্রতিষ্ঠানের সংক্ষিপ্ত ইতিহাস",
         "লক্ষ্য ও উদ্দেশ্য",
@@ -63,7 +64,7 @@ export const cardsData = [
   {
     card1: {
       title: "বার্ষিক কর্মসম্পাদন চুক্তি",
-      img: "./assets/Cards_images/card3.png",
+      img: "https://i.ibb.co/DV3wvzD/card3.png",
       links: [
         "নীতিমালা [Policy]",
         "প্রজ্ঞাপন/পরিপত্র [Notification]",
@@ -74,7 +75,7 @@ export const cardsData = [
     },
     card2: {
       title: "সুশাসন ও সংস্কারমূলক কর্মসম্পাদন",
-      img: "./src/assets/Cards_images/card4.jpg",
+      img: "https://i.ibb.co/gjp0703/card4.jpg",
       links: [
         "জাতীয় শুদ্ধাচার কৌশল",
         "শুদ্ধাচার কর্মপরিকল্পনা",
@@ -86,7 +87,7 @@ export const cardsData = [
   {
     card1: {
       title: "জব প্লেসমেন্ট সেল",
-      img: "./src/assets/Cards_images/card5.png",
+      img: "https://i.ibb.co/NsBGk21/card5.png",
       links: [
         "জব নোটিশ",
         "প্রাক্তন শিক্ষার্থী নিবন্ধকরণ",
@@ -95,7 +96,7 @@ export const cardsData = [
     },
     card2: {
       title: "ডাউনলোড",
-      img: "./src/assets/Cards_images/card6.jfif",
+      img: "https://i.ibb.co/f8Gs18n/card6.jpg",
       links: [
         "একাডেমিক ক্যালেন্ডার",
         "প্রবিধান-২016",
@@ -107,7 +108,7 @@ export const cardsData = [
   {
     card1: {
       title: "নীতিমালা",
-      img: "./src/assets/Cards_images/card7.jpg",
+      img: "https://i.ibb.co/WKqTg06/card7.jpg",
       links: [
         "জাতীয় শিক্ষানীতি-2010",
         "আইসিটি নীতিমালা-2015",
@@ -116,7 +117,7 @@ export const cardsData = [
     },
     card2: {
       title: "ই-টেন্ডার",
-      img: "./src/assets/Cards_images/card8.gif",
+      img: "https://i.ibb.co/wcDpLGd/card8.gif",
       links: [
         "দরপত্র বিজ্ঞপ্তি/নোটিশ",
         "বার্ষিক ক্রয় পরিকল্পনা",
@@ -127,7 +128,7 @@ export const cardsData = [
   {
     card1: {
       title: "ফরম ও প্রকাশনা",
-      img: "./src/assets/Cards_images/card9.jpg",
+      img: "https://i.ibb.co/b1dsVRM/card9.jpg",
       links: [
         "জিপিএফ এর আবেদন ফরম",
         "বিদেশ ভ্রমনের জন্য আবেদন",
@@ -137,7 +138,7 @@ export const cardsData = [
     },
     card2: {
       title: "তথ্য অধিকার",
-      img: "./src/assets/Cards_images/card10.png",
+      img: "https://i.ibb.co/djTYSYB/card10.png",
       links: [
         "তথ্য প্রদানকারী কর্মকর্তা",
         "তথ্য প্রাপ্তির ফরম",
@@ -148,12 +149,12 @@ export const cardsData = [
   {
     card1: {
       title: "“ঘরে বসে কারিগরি শিক্ষা”",
-      img: "./src/assets/Cards_images/card11.png",
+      img: "https://i.ibb.co/0G1v7M6/card11.png",
       links: ["ইউবটিউব চ্যানেল", "ফেসবুক পেজ", "ক্লাশ রুটিন", "onlinetvet.com"],
     },
     card2: {
       title: "রিচার্স এন্ড নলেজ ম্যানেজমেন্ট",
-      img: "./src/assets/Cards_images/card12.png",
+      img: "https://i.ibb.co/VCR01rw/card12.png",
       links: [
         "নোটশ/অফিস আদেশ",
         "প্রজ্ঞাপন",
@@ -168,6 +169,127 @@ export const cardsData = [
  home page Data end
 -------------------------*/
 
+// TECHNOLOGY
+
+// Civil page data
+export const CivilTableData = [
+  {
+    name: "Md. Shofikul Islam",
+    designation: "Cheif Instructor",
+    technology: "Civil",
+    shift: "2nd",
+    mobile: "01913285641",
+    image: "Md. Shofikul Islam",
+  },
+  {
+    name: "Md. Shofikul Islam",
+    designation: "Cheif Instructor",
+    technology: "Civil",
+    shift: "2nd",
+    mobile: "01913285641",
+    image: "Md. Shofikul Islam",
+  },
+];
+
+// computer page data
+export const computerTableData = [
+  {
+    name: "Md. Robiul Islam Khan",
+    designation: "Cheif Instructor",
+    technology: "Computer Science and Technology",
+    shift: "1st",
+    mobile: "01711270796",
+    image: "rimon hossain",
+  },
+  {
+    name: "Md. Robiul Islam Khan",
+    designation: "Cheif Instructor",
+    technology: "Computer Science and Technology",
+    shift: "1st",
+    mobile: "01711270796",
+    image: "rimon hossain",
+  },
+];
+
+// Electrical page data
+export const electricalData = [
+  {
+    name: "Engr. Md. Yakub Ali",
+    designation: "Cheif Instructor",
+    technology: "Electrical",
+    shift: "1st",
+    mobile: "01927024957",
+    image: "Engr. Md. Yakub Ali",
+  },
+  {
+    name: "Engr. Md. Yakub Ali",
+    designation: "Cheif Instructor",
+    technology: "Electrical",
+    shift: "1st",
+    mobile: "01927024957",
+    image: "Engr. Md. Yakub Ali",
+  },
+];
+
+// Electronics page table data
+export const electronicsTableData = [
+  {
+    name: "Engr. Md. Abdur Rahman",
+    designation: "Cheif Instructor",
+    technology: "Electronics",
+    shift: "1st",
+    mobile: "01927024957",
+    image: "Engr. Md. Yakub Ali",
+  },
+  {
+    name: "Engr. Md. Abdur Rahman",
+    designation: "Cheif Instructor",
+    technology: "Electronics",
+    shift: "1st",
+    mobile: "01927024957",
+    image: "Engr. Md. Yakub Ali",
+  },
+];
+
+// mechanical page table data
+export const mechanicalTableData = [
+  {
+    name: "Engr. Md. Nurul Islam",
+    designation: "Cheif Instructor",
+    technology: "Mechanical ",
+    shift: "First Shift",
+    mobile: "01917517293",
+    image: "Engr. Md. Nurul Islam",
+  },
+  {
+    name: "Engr. Md. Nurul Islam",
+    designation: "Cheif Instructor",
+    technology: "Mechanical ",
+    shift: "First Shift",
+    mobile: "01917517293",
+    image: "Engr. Md. Nurul Islam",
+  },
+];
+
+// power page table data
+export const powerTableData = [
+  {
+    name: "Engr. Syed Ahsan Ali",
+    designation: "Cheif Instructor",
+    technology: "Power",
+    shift: "2nd",
+    mobile: "01712203326",
+    image: "Engr. Syed Ahsan Ali",
+  },
+  {
+    name: "Engr. Syed Ahsan Ali",
+    designation: "Cheif Instructor",
+    technology: "Power",
+    shift: "2nd",
+    mobile: "01712203326",
+    image: "Engr. Syed Ahsan Ali",
+  },
+];
 /* ------------------------
 techer and staff page data start
  --------------------------------*/

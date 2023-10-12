@@ -2,36 +2,19 @@
 import React from "react";
 import Table from "../computer/table/Table";
 
-// Electronics table data
-const tableData = [
-  {
-    name: "Engr. Md. Abdur Rahman",
-    designation: "Cheif Instructor",
-    technology: "Electronics",
-    shift: "1st",
-    mobile: "01927024957",
-    image: "Engr. Md. Yakub Ali",
-  },
-  {
-    name: "Engr. Md. Abdur Rahman",
-    designation: "Cheif Instructor",
-    technology: "Electronics",
-    shift: "1st",
-    mobile: "01927024957",
-    image: "Engr. Md. Yakub Ali",
-  },
-];
+import electronicsImage from "../../.././assets/technology/electronics.jpg";
+import { electronicsTableData } from "../../../Data";
 const Electronics = () => {
   return (
     <div className="electronics_page">
       <h1 style={{ textAlign: "center" }}>Electronics Technology</h1>
       <img
-        src="./src/assets/technology/electronics.jpg"
+        src={electronicsImage}
         alt="electronics imgages"
         // height={"400px"}
         width={"100%"}
       />
-      <Table tableData={tableData} />
+      <Table tableData={electronicsTableData} />
     </div>
   );
 };

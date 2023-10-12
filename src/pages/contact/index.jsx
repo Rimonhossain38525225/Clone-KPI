@@ -1,6 +1,8 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
-
+import gmail from "../.././assets/contactus_images/email.png";
+import teliphone from "../.././assets/contactus_images/teliphone.png";
+import Gmailpng from "../.././assets/contactus_images/Gmailpng.png";
 const Contact = () => {
   return (
     <>
@@ -10,7 +12,7 @@ const Contact = () => {
           <div className="col-lg-4 col-md-6 col-sm-12">
             <h3 style={{ textAlign: "center" }}>Mailing Address</h3>
             <img
-              src="./src/assets/contactus_images/email.png"
+              src={gmail}
               alt="contact image"
               height={"60px"}
               width={"60px"}
@@ -20,7 +22,7 @@ const Contact = () => {
           <div className="col-lg-4 col-md-6 col-sm-12">
             <h3 style={{ textAlign: "center" }}>Telephone</h3>
             <img
-              src="./src/assets/contactus_images/teliphone.png"
+              src={teliphone}
               alt="contact image"
               height={"60px"}
               width={"60px"}
@@ -30,7 +32,7 @@ const Contact = () => {
           <div className="col-lg-4 col-md-6 col-sm-12">
             <h3 style={{ textAlign: "center" }}>Email Address</h3>
             <img
-              src="./src/assets/contactus_images/Gmailpng.png"
+              src={Gmailpng}
               alt="contact image"
               height={"60px"}
               width={"60px"}

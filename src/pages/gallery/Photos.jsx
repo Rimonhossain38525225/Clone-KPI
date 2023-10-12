@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 /* eslint-disable no-unused-vars */
 import React from "react";
-
+import galleryImage from "../.././assets/gallery_images/11.jpg";
 const Photos = ({ style }) => {
   return (
     <>
@@ -10,7 +10,7 @@ const Photos = ({ style }) => {
           className="rounded-4 border border-4"
           width={"250"}
           height={"200"}
-          src="./src/assets/gallery_images/11.jpg"
+          src={galleryImage}
           alt="galary images"
         />
         <h4>Adminstrative Building</h4>

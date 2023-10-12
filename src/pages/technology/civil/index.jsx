@@ -2,24 +2,8 @@
 import React from "react";
 import Table from "../computer/table/Table";
 
-const tableData = [
-  {
-    name: "Md. Shofikul Islam",
-    designation: "Cheif Instructor",
-    technology: "Civil",
-    shift: "2nd",
-    mobile: "01913285641",
-    image: "Md. Shofikul Islam",
-  },
-  {
-    name: "Md. Shofikul Islam",
-    designation: "Cheif Instructor",
-    technology: "Civil",
-    shift: "2nd",
-    mobile: "01913285641",
-    image: "Md. Shofikul Islam",
-  },
-];
+import CivilImage from "../../../assets/technology/civil.jpg";
+import { CivilTableData } from "../../../Data";
 
 const Civil = () => {
   return (
@@ -28,12 +12,12 @@ const Civil = () => {
         Civil Technology
       </h1>
       <img
-        src="./src/assets/technology/civil.jpg"
+        src={CivilImage}
         alt="civil imgages"
         // height={"400px"}
         width={"100%"}
       />
-      <Table tableData={tableData} />
+      <Table tableData={CivilTableData} />
     </div>
   );
 };

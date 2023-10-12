@@ -2,37 +2,20 @@
 import React from "react";
 import Table from "../computer/table/Table";
 
-// power
-const tableData = [
-  {
-    name: "Engr. Syed Ahsan Ali",
-    designation: "Cheif Instructor",
-    technology: "Power",
-    shift: "2nd",
-    mobile: "01712203326",
-    image: "Engr. Syed Ahsan Ali",
-  },
-  {
-    name: "Engr. Syed Ahsan Ali",
-    designation: "Cheif Instructor",
-    technology: "Power",
-    shift: "2nd",
-    mobile: "01712203326",
-    image: "Engr. Syed Ahsan Ali",
-  },
-];
+import powerImage from "../../.././assets/technology/power.jpg";
+import { powerTableData } from "../../../Data";
 
 const Power = () => {
   return (
     <div className="power_page">
       <h1 style={{ textAlign: "center" }}>Computer Science and Technology</h1>
       <img
-        src="./src/assets/technology/power.jpg"
+        src={powerImage}
         alt="computer imgages"
         // height={"400px"}
         width={"100%"}
       />
-      <Table tableData={tableData} />
+      <Table tableData={powerTableData} />
     </div>
   );
 };
