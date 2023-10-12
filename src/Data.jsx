@@ -2,25 +2,24 @@
 /* ---------------------
  home page Data start
  ------------------------*/
-
 // Home page Master data
 export const mastersData = [
   {
     id: 1,
     title: "মাননীয় মন্ত্রী",
-    img: "./src/assets/master_area_images/shikhkha_montri.jpg",
+    img: "https://i.ibb.co/71QXQNr/shikhkha-montri.jpg",
     name: "ডা. দীপু মনি এম.পি",
   },
   {
     id: 2,
     title: "মাননীয় উপমন্ত্রী",
-    img: "./src/assets/master_area_images/protimontri.jpg",
+    img: "https://i.ibb.co/Jnn5vhK/protimontri.jpg",
     name: "মহিবুল হাসান চৌধুরী, এম.পি",
   },
   {
     id: 3,
     title: "সচিব",
-    img: "./src/assets/master_area_images/shochib.jpg",
+    img: "https://i.ibb.co/5LTbbjn/shochib.jpg",
     name: "মোঃ কামাল হোসেন",
   },
   {
@@ -32,7 +31,7 @@ export const mastersData = [
   {
     id: 5,
     title: "অধ্যক্ষ",
-    img: "./src/assets/master_area_images/zahidul.jpg",
+    img: "https://i.ibb.co/Tmw5DkK/zahidul.jpg",
     name: "ইঞ্জিনিয়ার মোঃ জাহেদুল কবির খান",
   },
 ];

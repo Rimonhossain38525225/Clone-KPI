@@ -35,7 +35,10 @@ const Master = () => {
       </div>
       <div className="single_master ex_height">
         <h3>Gov: Emergancy Service</h3>
-        <img src="./src/assets/helpline.png" alt="Gov: Emergancy Service" />
+        <img
+          src="https://i.ibb.co/fF40cxL/helpline.png"
+          alt="Gov: Emergancy Service"
+        />
       </div>
     </>
   );
