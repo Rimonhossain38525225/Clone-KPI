@@ -1,0 +1,57 @@
+.notice_bord {
+  padding: 10px;
+  background-color: #fdfdfd;
+}
+.notice_bord .notice {
+  border: 1px solid #ddd;
+  padding: 5px 0;
+  position: relative;
+  height: 300px;
+}
+.notice_bord .notice p {
+  background-color: teal;
+  padding: 5px;
+  color: white;
+  font-size: 18px;
+  text-align: center;
+}
+.notice_bord .notice img {
+  position: absolute;
+  top: 42px;
+}
+.notice_bord .notice ul {
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  list-style: none;
+}
+.notice_bord .notice ul li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+  font-size: calc(7px + 1vw);
+  text-decoration: none;
+  color: black;
+  transition: 0.3s;
+  position: relative;
+}
+.notice_bord .notice ul li a {
+  text-decoration: none;
+  color: black;
+}
+.notice_bord .notice .btn {
+  position: absolute;
+  right: 3px;
+  bottom: 3px;
+  border: 0;
+  padding: 5px 15px;
+  font-size: 16px;
+  text-transform: capitalize;
+  background-color: green;
+  color: white;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+.notice_bord .notice .btn:hover {
+  background-color: orange;
+}

@@ -1,0 +1,163 @@
+/* Reset CSS */
+
+/* Margin and padding reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Remove list styles (bullet points) */
+ul,
+ol {
+  list-style: none;
+}
+
+/* Remove default anchor (link) styles */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Typography reset */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+  line-height: 1.5;
+  background-image: url("./assets/images/bg.gif");
+  background-color: #f0f0f0;
+  width: 100%;
+  height: 100%;
+}
+html {
+  scroll-behavior: smooth;
+  height: 100%;
+}
+
+.container,
+.container-fluid,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl,
+.container-xxl {
+  --bs-gutter-x: 0rem;
+}
+.row {
+  --bs-gutter-x: 0rem;
+}
+/* Remove default styles for headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-weight: normal;
+  font-size: 2.5rem;
+}
+
+/* Remove default styles for form elements */
+input,
+textarea,
+button,
+select {
+  font-family: inherit;
+  font-size: inherit;
+}
+
+/* Reset images to their natural size */
+img {
+  max-width: 100%;
+  /* height: auto; */
+}
+
+/* navbar css  */
+.nav-bar-bg-color {
+  background-color: #f0f8ff !important;
+}
+.header_link {
+  text-transform: capitalize;
+  font-size: 14px;
+  transition: 0.4s;
+  color: #198754;
+  font-weight: 600;
+}
+.header_link:hover {
+  background-color: #1d3052;
+  color: white;
+  border-radius: 5px;
+  transition: 0.3s ease-in-out;
+}
+.custom_css_dropdown_item {
+  color: #198754;
+  text-transform: capitalize;
+  text-align: center;
+  font-weight: 600;
+  transition: 0.3s;
+}
+.custom_css_dropdown_item:hover {
+  background-color: #1d3052;
+  color: white;
+  border-radius: 5px;
+  transition: 0.3s ease-in-out;
+}
+.Routes_main_area,
+.footer_area_container {
+  background-color: #fff;
+}
+nav .active {
+  color: red !important;
+}
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-nav {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+  }
+}
+
+/* navbar css  */
+
+/* main area css  */
+.main-area {
+  background-color: #fff;
+  min-height: 500px;
+  margin-top: 0px;
+}
+/* table container style  */
+.table_container {
+  overflow-y: auto;
+}
+.msr_ul {
+  margin-top: 20px;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+}
+.msr_ul a {
+  font-size: calc(6px + 1vh);
+}
+i {
+  color: green;
+  margin-right: 5px;
+}
+/* footer area start here  */
+.footer-area {
+  background-color: #fff;
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 25px;
+  }
+}
+@media (max-width: 992px) {
+  .container,
+  .container-sm {
+    max-width: 100%;
+  }
+}

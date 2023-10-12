@@ -1,0 +1,17 @@
+h1 {
+  font-size: 50px;
+}
+
+.inputStyle {
+  max-width: 400px;
+  min-width: 250px;
+  width: 90%;
+  font-size: 20px;
+  border: 2px solid #ddd;
+  outline: none;
+  border-radius: 5px;
+  padding: 2.4px;
+}
+.inputStyle :focus {
+  border: 2px solid #ddd;
+}

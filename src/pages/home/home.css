@@ -1,0 +1,21 @@
+.Home_page .fl1 {
+  justify-content: center !important;
+}
+.Home_page .col-md-9 {
+  width: 70% !important;
+}
+.Home_page .col-md-3 {
+  width: 28% !important;
+}
+
+@media (max-width: 576px) {
+  .Home_page {
+    flex-direction: column !important;
+  }
+  .Home_page .col-md-9 {
+    width: 100% !important;
+  }
+  .Home_page .col-md-3 {
+    width: 100% !important;
+  }
+}

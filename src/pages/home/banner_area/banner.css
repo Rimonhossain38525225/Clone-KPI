@@ -1,0 +1,10 @@
+.banner_area {
+  padding: 10px;
+}
+.banner_area .banner {
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+.banner_area .banner img {
+  width: 100%;
+}

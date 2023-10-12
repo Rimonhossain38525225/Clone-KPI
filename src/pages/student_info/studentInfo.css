@@ -1,0 +1,39 @@
+@media (max-width: 776px) {
+  .grid_layout {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* text-align: center; */
+  }
+  .grid_layout td {
+    margin-left: 3rem;
+  }
+  .grid_layout td button {
+    font-size: 12px !important;
+    margin-top: 2rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .grid_layout {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* text-align: center; */
+  }
+  .grid_layout td {
+    margin-left: 0.4rem;
+  }
+  .grid_layout td label {
+    font-size: 16px !important;
+  }
+  .grid_layout td input {
+    font-size: 16px !important;
+  }
+  .grid_layout td button {
+    font-size: 12px !important;
+    margin-top: 1rem;
+  }
+  #Teacher_and_Staff_Information {
+    font-size: 17px !important;
+    width: 82% !important;
+  }
+}
