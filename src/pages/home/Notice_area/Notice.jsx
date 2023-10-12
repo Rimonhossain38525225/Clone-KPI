@@ -2,6 +2,8 @@
 import React from "react";
 import "./notice.css";
 import LinkList from "../master_area/LinkList";
+
+import noticeImage from "../../.././assets/Notice_image/bg-notice-board.png";
 // const noticeLinks
 const Notice = () => {
   return (
@@ -9,10 +11,7 @@ const Notice = () => {
       <div className="notice_bord">
         <div className="notice">
           <p>নোটিশ বোর্ড</p>
-          <img
-            src="./src/assets/Notice_image/bg-notice-board.png"
-            alt="bg-notice-board image"
-          />
+          <img src={noticeImage} alt="bg-notice-board image" />
           <ul>
             <li>
               <i className="fas fa-circle-check"></i>
