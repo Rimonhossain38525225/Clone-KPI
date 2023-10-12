@@ -3,40 +3,7 @@ import React from "react";
 import ExStdRow from "./ExStdRow";
 
 // ex Student Informetion Data
-const exStudentInfoData = [
-  {
-    name: "MD SHANTO KHAN",
-    mobile: "01839683489	",
-    technology: "Mechanical Technology",
-    passingYear: "2022",
-    jobIfo: "nai",
-    photo: "./src/assets/Ex_student_info/shanto_khan.png",
-  },
-  {
-    name: "MD SHANTO KHAN",
-    mobile: "01839683489	",
-    technology: "Mechanical Technology",
-    passingYear: "2022",
-    jobIfo: "nai",
-    photo: "./src/assets/Ex_student_info/shanto_khan.png",
-  },
-  {
-    name: "MD SHANTO KHAN",
-    mobile: "01839683489	",
-    technology: "Mechanical Technology",
-    passingYear: "2022",
-    jobIfo: "nai",
-    photo: "./src/assets/Ex_student_info/shanto_khan.png",
-  },
-  {
-    name: "MD SHANTO KHAN",
-    mobile: "01839683489	",
-    technology: "Mechanical Technology",
-    passingYear: "2022",
-    jobIfo: "nai",
-    photo: "./src/assets/Ex_student_info/shanto_khan.png",
-  },
-];
+import { exStudentInfoData } from "../../Data";
 
 const ExStudentInfo = () => {
   return (

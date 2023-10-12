@@ -2,6 +2,7 @@
 import React from "react";
 
 import "./footer.css";
+import myImage from "../../assets/footer.png";
 
 const Footer = () => {
   return (
@@ -9,7 +10,7 @@ const Footer = () => {
       <div className="footer-area">
         <div className="container-fluid">
           <div className="footer_top">
-            <img src="./src/assets/footer.png" alt="footer image" />
+            <img src={myImage} alt="footer image" />
           </div>
           <div className="footer_bottom">
             <p>

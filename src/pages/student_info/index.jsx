@@ -3,22 +3,10 @@ import React from "react";
 import StudentHeadArea from "./StudentHeadArea";
 
 import "./studentInfo.css";
-const studentInfoData = [
-  {
-    roll: "0",
-    studentName: "MD. RASEL HOSSAIN",
-    technology: "Power",
-    semester: "8th",
-    photo: "",
-  },
-  {
-    roll: "0",
-    studentName: "MD. RASEL HOSSAIN",
-    technology: "Power",
-    semester: "8th",
-    photo: "",
-  },
-];
+
+// student information  data
+import { studentInfoData } from "../../Data";
+
 const StudentInfo = () => {
   return (
     <div className="student_info_page">

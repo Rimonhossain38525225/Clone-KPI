@@ -3,6 +3,7 @@
 import React from "react";
 import LinkList from "./LinkList";
 import MasterLinkList from "./LinkList";
+import { mastersData } from "../../../Data";
 
 const importentsLinks = [
   { link: "#", linkName: "গণপ্রজাতন্ত্রী বাংলাদেশ সরকার" },
@@ -12,11 +13,11 @@ const importentsLinks = [
   { link: "#", linkName: "ASSET Project" },
   { link: "#", linkName: "আইএলও" },
 ];
-const Master = ({ mastars }) => {
-  console.log(mastars);
+const Master = () => {
+  console.log(mastersData);
   return (
     <>
-      {mastars.map((master) => {
+      {mastersData.map((master) => {
         const { id, title, img, name } = master;
         return (
           <div className="single_master" key={id}>

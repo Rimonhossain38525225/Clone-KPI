@@ -3,7 +3,8 @@
 import React from "react";
 import { v4 as uuidv4 } from "uuid";
 
-const Card = ({ cardsData }) => {
+import { cardsData } from "../../../Data";
+const Card = () => {
   console.log(cardsData);
   return (
     <>
