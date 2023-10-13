@@ -15,9 +15,11 @@ const StudentsInfoSelect = ({ labelName, selectOption }) => {
         >
           {labelName}
         </label>
+
         <br />
         <select
           name="technology"
+          required
           aria-label="technology"
           id="Teacher_and_Staff_Information"
         >

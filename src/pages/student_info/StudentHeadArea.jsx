@@ -2,6 +2,7 @@
 import React from "react";
 
 import StudentsInfoSelect from "./StudentsInfoSelect";
+
 const StudentHeadArea = () => {
   const technologySelectOption = [
     "Select Any Technology",
@@ -26,6 +27,10 @@ const StudentHeadArea = () => {
   ];
   const shiftSelectOption = ["Select Any Shift", "1st", "2nd"];
   const groupSelectOption = ["Select Any Group", "A", "B"];
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+  };
   return (
     <>
       <h1 style={{ textAlign: "center" }}>Student List</h1>
@@ -34,7 +39,7 @@ const StudentHeadArea = () => {
       </h1>
       <hr style={{ height: "3px", backgroundColor: "black" }} />
 
-      <form action="#">
+      <form action="" onSubmit={handleSubmit}>
         <table style={{ width: "100%" }}>
           <tr className="grid_layout">
             <StudentsInfoSelect
@@ -68,6 +73,7 @@ const StudentHeadArea = () => {
                 type="text"
                 name="roll"
                 placeholder="Enter Roll No"
+                required
                 style={{ fontSize: "20px", width: "150px" }}
               />
             </td>
