@@ -30,6 +30,7 @@ const StudentHeadArea = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    alert("এখনো এই সার্চ অপশন চালু হয়নি");
   };
   return (
     <>
