@@ -1,10 +1,29 @@
 /* eslint-disable no-unused-vars */
-import React from "react";
+import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 
+import "./header.css";
 const Navbar = () => {
+  const [isHovered, setIsHovered] = useState(false);
+
+  const handleMouseOver = () => {
+    setIsHovered(true);
+  };
+
+  const handleMouseOut = () => {
+    setIsHovered(false);
+  };
   return (
     <>
+      <div
+        className={`marquee-container ${isHovered ? "paused" : ""}`}
+        onMouseOver={handleMouseOver}
+        onMouseOut={handleMouseOut}
+      >
+        <div className="marquee">
+          ২য়, ৪র্থ এবং ৬ষ্ঠ পর্বের পর্বমধ্য পরীক্ষা চলমান।
+        </div>
+      </div>
       <nav className="navbar navbar-expand-lg navbar-light nav-bar-bg-color">
         <div className="container-fluid" style={{ textAlign: "center" }}>
           <button
